@@ -18,4 +18,8 @@ sudo sed -i "s/^#SigLevel = Optional TrustAll/Include = \/etc\/pacman.d\/chaotic
 
 sudo pacman -Syyuu --noconfirm
 
+cd ~/
+
+rm -Rf chaotic
+
 reboot
