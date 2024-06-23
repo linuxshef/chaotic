@@ -19,7 +19,7 @@ sudo sed -i "s/^#SigLevel = Optional TrustAll/Include = \/etc\/pacman.d\/chaotic
 
 #----------------------------------------------------------------------------------------#
 
-sudo pacman -Syyuu --noconfirm
+sudo pacman -Syy chaotic-keyring chaotic-mirrorlist  --noconfirm
 
 cd ~/
 
